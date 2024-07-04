@@ -60,6 +60,12 @@ python bgphe.py
 curl http://localhost:8000/net?address=8.8.8.8
 ```
 
+### Consulta de Informações dos AS
+
+```bash
+curl http://localhost:8000/net?asn=15169
+```
+
 ### Consulta do Meu IP
 
 ```bash
